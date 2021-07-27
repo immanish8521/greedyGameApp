@@ -1,0 +1,27 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+.input_container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  .btn_submit {
+    display: flex;
+    justify-content: center;
+    margin-left: 0.5rem;
+    button {
+      width: 5rem;
+      height: 2rem;
+      font-weight: bold;
+      background: transparent;
+      outline: none;
+      cursor: pointer;
+      font-size: 0.6rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      border: none;
+      background-color: #161d34;
+      color: white;
+      border-radius: 4px;
+    }
+  }
+}
